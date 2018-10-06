@@ -37,6 +37,45 @@ main > img {
   margin-bottom: 29px;
 }
 
-/* li > img {
-  margin: 50px;
-} */
+.column1, .column2 {
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.column3 {
+  float: left;
+  margin-bottom: 30px;
+}
+
+.paragraph h2 {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.paragraph div {
+  position: absolute;
+  display: inline;
+  max-width: 445px;
+  overflow: scroll;
+  margin-left: 30px;
+  max-height: 350px;
+}
+
+.buttonCall {
+  position: relative;
+  margin-left: 30px;
+  top: -6px;
+}
+
+.buttonCall:hover {
+  background-color: #4CAF50;
+}
+
+footer {
+  background-color: #444;
+  width: 100%;
+  height: 96px;
+  box-sizing: border-box;
+}
